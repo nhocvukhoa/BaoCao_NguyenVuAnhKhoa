@@ -1,0 +1,30 @@
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+@media (max-width:991px) and (min-width: 768px){
+    
+}
+
+@media (max-width:767px){
+    .header{
+        clip-path: none;
+    }
+    .header .banner .header-menu .menu-list .item-list{
+        display: none;
+    }
+    .header .banner .header-menu .menu-list .icon{
+        display: block;
+        justify-content: flex-start;
+        position: absolute;
+        left: 18px;
+        top: -31px;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .change .icon i{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+}
